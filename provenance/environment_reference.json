@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "evidence": "Supplied environment capture; PyTorch/MONAI also recorded in supplied efficiency run",
+  "python_version": "3.10.20",
+  "python_implementation": "CPython",
+  "selected_packages": {
+    "matplotlib": "3.8.4",
+    "monai": "1.3.2",
+    "nibabel": "5.2.1",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "pillow": "12.2.0",
+    "scipy": "1.13.1",
+    "torch": "2.1.2+cu121"
+  },
+  "efficiency_run_environment": {
+    "torch": "2.1.2+cu121",
+    "monai": "1.3.2",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 4090 D"
+  }
+
+}

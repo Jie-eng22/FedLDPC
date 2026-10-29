@@ -1,0 +1,43 @@
+{
+  "version": "/",
+  "arms": [
+    "on"
+  ],
+  "rounds": 100,
+  "local_epochs": 5,
+  "batch_size": 2,
+  "num_samples": 2,
+  "patch_size": [
+    96,
+    96,
+    96
+  ],
+  "cache_rate": 0.5,
+  "num_workers": 0,
+  "seed": 42,
+  "lr": 0.0001,
+  "weight_decay": 1e-05,
+  "val_interval": 5,
+  "proto_scale": 0.005,
+  "lambda_align": 0.0,
+  "lambda_consistency": 0.05,
+  "proto_dim": 256,
+  "quant_bits": 8,
+  "transport": "direct",
+  "pooling": "soft",
+  "invalid_proto_policy": "exclude",
+  "min_soft_mass": 1e-10,
+  "sw_overlap": 0.5,
+  "max_cases_per_client": 0,
+  "max_steps_per_client": 0,
+  "expected_train_total": 165,
+  "expected_val_total": 24,
+  "expected_client_sizes": [
+    34,
+    71,
+    42,
+    18
+  ],
+  "expected_split_sha256": "5800fb3ba7c0ca3bf0308404a15fae28d1ae3871fc2fab51a1ae6d0812959df5",
+  "expected_val_sha256": "d680e5eb39c62a0759d19a3f39da393aab6025add3ac6ade9ede1000e5443242"
+}
